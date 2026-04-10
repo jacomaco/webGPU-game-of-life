@@ -116,7 +116,7 @@
       });
       pass.setPipeline(cellPipeline);
       pass.setVertexBuffer(0, vertexBuffer);
-      pass.draw(vertices.length / 2); // 6 vertices
+      pass.draw(vertices.length / 2); // 6 vertices f
       pass.end();
 
       device.queue.submit([encoder.finish()]);
